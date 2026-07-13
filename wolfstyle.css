@@ -1,0 +1,119 @@
+@charset "utf-8";
+body {
+    background-color: #02070b;
+    font-family: 'special elite', monospace;
+    margin: 0;
+    padding: 3;
+    text-align: center;
+} 
+
+
+
+header {
+    color: #9adfff;
+    font-family: 'eroded-regular', monospace;
+    font-size:large;
+    text-align: center;
+    text-shadow: 0px 3px 6px;
+}
+h1 {
+    color: #9adfff;
+    font-family: 'eroded-regular', monospace;
+    font-size:large;
+    text-align: center;
+    text-shadow: 0px 3px 6px;
+}
+section { 
+    border: 2px #1b0f1f;
+    border-radius: 20px;
+    padding: 20px;
+}
+ footer {
+    background-color: #1b0f1f;
+    border-radius: 20px;
+ }
+ h1 {
+    background-color: #0000;
+    font-family: 'eroded-regular', monospace;
+    color: #d5e7f3
+ }
+ h2 {
+    background-color: #1b0f1f;
+ }
+
+  h3 {
+    color: #dff2fe;
+    text-align: left;
+    background-color: #231627;
+    position: relative;
+    top: 100%;
+    left :0%; 
+    width: 40%;
+    border-right: 2px solid #6691ac;
+    border-bottom: 2px solid #6691ac;
+    padding: 1rem solid #6691ac;
+    background-color: #6691ac;
+    display: block;
+    transition: all 0.5s linear;
+ }
+ p {
+    color: #dff2fe;
+    text-align: left;
+    background-color: #231627;
+    position: relative;
+    top: 100%;
+    left :0%; 
+    width: 40%;
+    border-right: 2px solid #6691ac;
+    border-bottom: 2px solid #6691ac;
+    padding: 1rem solid #6691ac;
+    background-color: #6691ac;
+    display: block;
+    transition: all 0.5s linear;
+ }
+
+
+div.scroll-container {
+    background-color: #223644;
+    overflow-x: auto;
+    align-content: center;
+    white-space: wrap;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 200px;
+    overflow-y: scroll;
+    padding: 100px;
+    max-height: 200px;
+    max-width: 200px;
+    }
+    div.scroll-container img {
+        padding: 10px;   
+        width: 200px;
+        height: auto;
+        object-fit: auto;
+    }
+    /*resize images to fit container*/
+    .container img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+ 
+ ul {
+    text-align: left;
+    color: #d5e7f3;
+ }
+
+ a {
+    color: #d5e7f3;
+    background-color: 6691AC
+ }
+ footers {
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 0px;
+    text-align: center;
+    color: #d5e7f3;
+ }
