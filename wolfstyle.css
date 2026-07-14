@@ -117,3 +117,7 @@ div.scroll-container {
     text-align: center;
     color: #d5e7f3;
  }
+ a:hover {
+    color: #6691ac;
+    background-color: #000000;
+ }
